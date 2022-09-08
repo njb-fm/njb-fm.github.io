@@ -1,2 +1,2 @@
 # njb-fm.github.io
-NJB's Official Website
+Official Website of NJB & Ruritania
