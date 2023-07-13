@@ -29,7 +29,7 @@
 				また、これに伴い<a href="https://sourceforge.net" target="_blank">SourceForge</a>へのドキュメントなど一部コンテンツの移行作業が止まっています。<br>
 				リポジトリについては移行済みであるため、ユーザーの皆様にはお手数をお掛けしますが、以下の作業を行なって下さい。<br>
 				<br>
-				・Univalentをお使いの方<br>
+				●Univalentをお使いの方<br>
 				以下のコマンドを実行して、ミラーリストを更新して下さい。<br>
 				<br>
 				<tt>
@@ -37,11 +37,20 @@
 					sudo pacman -Syyu<br>
 				</tt>
 				<br>
-				・Kamuriki 1.xをお使いの方<br>
-				準備中です…もう少しお待ち下さい。<br>
+				●Kamurikiをお使いの方<br>
+				リポジトリ情報は<tt>base-files</tt><sup>kamuriki:main</sup>に含まれるので、以下のコマンドで更新をして下さい。<br>
 				<br>
-				・Kamuriki 2.xをお使いの方<br>
-				準備中です…もう少しお待ち下さい。<br>
+				・1.xをお使いの方<br>
+				<tt>
+					wget https://sourceforge.net/projects/kamurikilinux/files/repo/kamuriki/pool/main/b/base-files/base-files_11ubuntu2023.07.13kamuriki1.8.2_amd64.deb<br>
+					sudo apt install ./base-files_11ubuntu2023.07.13kamuriki1.8.2_amd64.deb<br>
+				</tt>
+				<br>
+				・2.xをお使いの方<br>
+				<tt>
+					wget https://sourceforge.net/projects/kamurikilinux/files/repo/kamuriki/pool/main/b/base-files/base-files_12ubuntu2023.07.13kamuriki2.4.2_amd64.deb<br>
+					sudo apt install ./base-files_12ubuntu2023.07.13kamuriki2.4.2_amd64.deb<br>
+				</tt>
 				<br>
 			</td>
 		</tr>
